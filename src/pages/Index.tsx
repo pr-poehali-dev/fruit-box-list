@@ -127,11 +127,27 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <div className="container mx-auto p-6">
-        <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-          Blox Fruits Tier List
-        </h1>
+        {/* Header with modern gradient */}
+        <div className="text-center mb-8">
+          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Blox Fruits Tier List
+          </h1>
+          <p className="text-xl text-gray-300 mb-2">
+            🏴‍☠️ Обновлено для 2025 года
+          </p>
+          <div className="flex justify-center gap-4 text-sm text-gray-400">
+            <span className="flex items-center gap-1">
+              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              PvP Оценки
+            </span>
+            <span className="flex items-center gap-1">
+              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+              PvE Оценки
+            </span>
+          </div>
+        </div>
 
         <Controls
           onSave={handleSave}

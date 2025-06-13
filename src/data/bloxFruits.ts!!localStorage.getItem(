@@ -1,0 +1,69 @@
+
+export interfaceierList');
+
+  return (
+    <div className Fruit {
+  id: string;="min-h-screen bg-gray-900 
+  name: string;
+  text-white p-4">
+      <divimage: string;
+  r className="max-w-6xl mx-auto">
+        <divarity: "Common" | " className="text-center mb-Uncommon" | "Rare"8">
+          <h1 className="text- | "Legendary" | "Myth4xl font-bold mb-2 ical";
+}
+
+const bloxFruitsbg-gradient-to-r from-purple-400 to-pink-400 bg-: Fruit[] = [
+  // Mythical
+  { id: "dragon",clip-text text-transparent">
+            Blox Fruits Tier List
+          </h1> name: "Dragon", image: "https://images.
+          <p className="text-gray-400">unsplash.com/photo-1578662996442-48fПеретащите фрукты в соответствующие тиры</p>60103fc96?w=64
+        </div>
+
+        <Controls&h=64&fit=crop", rarity: 
+          onSave={handleS "Mythical" },
+  { id: "ave}
+          onLoad={handleLoad}
+          leopard", name: "LeoparonReset={handleReset}d", image: "https://images.
+          hasSavedData={unsplash.com/photo-hasSavedData}
+        />
+
+        1549366021-9<div className="space-y-2 mb-8">
+          {tf761d040a94iers.map(tier => (?w=64&h=64&fit=crop", rarity:
+            <TierRow
+              key={tier. "Mythical" },
+  id}
+              tier={tier}{ id: "shadow", name: "
+              fruits={fruitsByTierShadow", image: "https://images.unsplash.com/photo[tier.id] || []}
+              onDrop={handleDrop}
+              -1518709268805-4eonDragOver={handleDragOver}
+              onDragStart={handleDragStart}
+              draggedFruit9042af2ac0?w=64={draggedFruit}
+            />
+          ))}
+        &h=64&fit=crop", rarity: "Mythical" },
+  </div>
+
+        <Card className="p{ id: "venom", name:-4 bg-gray-800 border-gray-700 "Venom", image: "https://images.unsplash.com/photo-1546026">
+          <h3 className="text-xl font-bold mb-4 text-center">423-cc4642628d2b?w=64&h=64&fit=cropНерейтинговые фрукты", rarity: "Mythical" },
+  </h3>
+          <div className="flex flex-wrap gap-{ id: "dough", name: "2 justify-center">
+            {fruitsByDough", image: "https://images.unsTier.unranked.map(fruit => (plash.com/photo-1555507
+              <FruitCard
+                key={fruit.id}
+                fruit={fruit036-ab794f1eb60b}
+                onDragStart={handleDragStart?w=64&h=64}
+                isDragging={draggedFruit ===&fit=crop", rarity: "Mythical fruit.id}
+              />
+            ))}
+          </div>
+        </Car" },
+
+  // Legendary
+  { id>
+      </div>
+    d: "buddha", name: "Buddha", image:</div>
+  );
+};
+
+export default T "https://images.unsplashierList;

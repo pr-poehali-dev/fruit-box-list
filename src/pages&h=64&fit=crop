@@ -1,0 +1,8 @@
+
+import TierList from '@ id: "rumble", name: "Rumble", image: "https://images.unsplash.com/photo-1506905/components/TierList';
+
+const Index = () => {
+  return <TierList />;
+};925346-21bda4d32
+
+export default Index;
